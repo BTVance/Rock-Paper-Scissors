@@ -9,7 +9,21 @@ const computerSelection = getComputerChoice
 let x = getComputerChoice();
 
 function playerChoice() {
-    prompt("Please Choose Rock, Paper, or Scissors")
+    let options;
+    let playerChoice = prompt("Please Choose Rock, Paper, or Scissors");
+    switch(playerChoice) {
+    case "Rock":
+     options = "Rock";
+     break;
+    case "Paper":
+     options = "Paper";
+     break;
+    case "Scissors":
+     options = "Scissors";
+     break;
+    default:
+     options = "That is not an option..." 
+    }
 }
 const playerSelection = playerChoice
 let z = playerSelection()
