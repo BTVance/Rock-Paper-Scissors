@@ -10,8 +10,8 @@ let x = getComputerChoice();
 
 function playerChoice() {
     let options;
-    let playerChoice = prompt("Please Choose Rock, Paper, or Scissors");
-    switch(playerChoice) {
+    let pChoice = prompt("Please Choose Rock, Paper, or Scissors");
+    switch(pChoice) {
     case "Rock":
      options = "Rock";
      break;
